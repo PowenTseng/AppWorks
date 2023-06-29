@@ -1,0 +1,128 @@
+.border {
+  width: 500px;
+  height: 290px;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  position: relative;
+}
+.bigcircle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: lightgrey;
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
+.yourfriend {
+  position: absolute;
+  top: 30px;
+  left: 95px;
+  font-family: "Courier New", Courier, monospace;
+  font: bold;
+}
+.time {
+  position: absolute;
+  color: lightgray;
+  font-size: 0.8rem;
+  top: 50px;
+  left: 95px;
+  font-family: "Courier New", Courier, monospace;
+}
+.post {
+  position: absolute;
+  top: 90px;
+  left: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+.line1 {
+  position: absolute;
+  width: 460px;
+  top: 150px;
+  left: 30px;
+  border: none;
+  border-top: 1px solid lightgrey;
+}
+.circle1 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: orangered;
+  position: absolute;
+  top: 165px;
+  left: 35px;
+}
+.circle2 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: lightgrey;
+  position: absolute;
+  top: 165px;
+  left: 65px;
+}
+.line2 {
+  position: absolute;
+  width: 460px;
+  top: 188px;
+  left: 30px;
+  border: none;
+  border-top: 1px solid lightgrey;
+}
+.like {
+  position: absolute;
+  color: lightgray;
+  font-size: 1rem;
+  top: 200px;
+  left: 40px;
+  font-family: "Courier New", Courier, monospace;
+}
+.commentnumber {
+  position: absolute;
+  color: lightgray;
+  font-size: 1rem;
+  top: 200px;
+  left: 420px;
+  font-family: "Courier New", Courier, monospace;
+}
+.line3 {
+  position: absolute;
+  width: 500px;
+  top: 220px;
+  border: none;
+  border-top: 1px solid lightgrey;
+}
+.circle3 {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: lightblue;
+  position: absolute;
+  top: 242px;
+  left: 45px;
+}
+.comment {
+  position: absolute;
+  color: rgb(99, 97, 97);
+  z-index: 1;
+  font-size: 1rem;
+  top: 254px;
+  left: 260px;
+  font-family: "Courier New", Courier, monospace;
+}
+.commentblock {
+  position: absolute;
+  width: 380px;
+  height: 50px;
+  border-radius: 30px;
+  top: 240px;
+  left: 110px;
+  background-color: rgb(235, 232, 232);
+}
+.picture {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 235px;
+  left: 45px;
+}
