@@ -8,20 +8,44 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <div class="border"></div>
-    <div class="bigcircle"></div>
-    <div class="yourfriend">你的朋友</div>
-    <div class="time">一小時前</div>
-    <div class="post">Yo!</div>
-    <hr class="line1" />
-    <div class="circle1"></div>
-    <div class="circle2"></div>
-    <hr class="line2" />
-    <div class="like">7人喜歡這則貼文</div>
-    <div class="commentnumber">1則留言</div>
-    <hr class="line3" />
-    <img src="profile_picture.jpg" alt="The user's picture" class="picture" />
-    <div class="comment">留個言吧</div>
-    <div class="commentblock"></div>
+    <!-- The post box is composed of four little boxes (div elements) and a p element. -->
+
+    <div class="postBox">
+      <!-- The first box -->
+      <div class="userInfoBox">
+        <div class="profilePicture"></div>
+        <div class="nameTimeBox">
+          <div class="name">你的朋友</div>
+          <div class="time">一小時前</div>
+        </div>
+      </div>
+
+      <!-- p element -->
+      <p class="post">Yo!</p>
+
+      <!-- The second box -->
+      <div class="circleBox">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+      </div>
+
+      <!-- The third box -->
+      <div class="numberBox">
+        <p class="likeNumber">7人喜歡這則貼文</p>
+        <p class="commentNumber">1則留言</p>
+      </div>
+
+      <!-- The fourth box -->
+      <div class="commentBox">
+        <img
+          src="profile_picture.jpg"
+          alt="The user's picture"
+          class="picture"
+        />
+        <div class="commentblock">
+          <div class="comment">留個言吧</div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
